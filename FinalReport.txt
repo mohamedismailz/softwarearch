@@ -1,0 +1,128 @@
+Competitor number 101, name George   Shon, country UK.
+George is a intermediate aged 31 and received these scores: [2, 4, 5, 5]
+This gives them an overall score of 3.8.
+Handicap: 0.0
+Golf Performance: 3.8
+
+Competitor number 102, name Kaith  Clos, country UK.
+Kaith is a beginners aged 29 and received these scores: [4, 4, 2, 2]
+This gives them an overall score of 3.2.
+Handicap: 0.0
+Golf Performance: 3.2
+
+Competitor number 103, name Rinon  Grov, country US.
+Rinon is a intermediate aged 25 and received these scores: [1, 1, 5, 4]
+This gives them an overall score of 2.4.
+Handicap: 0.0
+Golf Performance: 2.4
+
+Competitor number 104, name Mark  Leno, country UK.
+Mark is a beginners aged 22 and received these scores: [5, 4, 4, 2]
+This gives them an overall score of 3.9.
+Handicap: 0.0
+Golf Performance: 3.9
+
+Competitor number 105, name Harry  Patrick, country UK.
+Harry is a intermediate aged 32 and received these scores: [2, 3, 5, 4]
+This gives them an overall score of 3.3.
+Handicap: 0.0
+Golf Performance: 3.3
+
+Competitor number 106, name Vicy  Mathew, country UK.
+Vicy is a intermediate aged 33 and received these scores: [3, 2, 5, 5]
+This gives them an overall score of 3.5.
+Handicap: 0.0
+Golf Performance: 3.5
+
+Competitor number 107, name Monica  Loy, country US.
+Monica is a intermediate aged 29 and received these scores: [4, 4, 4, 2]
+This gives them an overall score of 3.6.
+Handicap: 0.0
+Golf Performance: 3.6
+
+Competitor number 108, name Susan  Mathew, country US.
+Susan is a beginners aged 28 and received these scores: [5, 4, 5, 3]
+This gives them an overall score of 4.3.
+Handicap: 0.0
+Golf Performance: 4.3
+
+Competitor number 109, name Andy  Stov, country US.
+Andy is a beginners aged 22 and received these scores: [6, 2, 1, 4]
+This gives them an overall score of 3.4.
+Handicap: 0.0
+Golf Performance: 3.4
+
+Competitor number 110, name Mary  Francis, country UK.
+Mary is a intermediate aged 27 and received these scores: [1, 1, 1, 4]
+This gives them an overall score of 1.6.
+Best Lap Time: 0.0 seconds
+Speed: Infinity m/s
+
+Competitor number 111, name Jomon  Vicy, country UK.
+Jomon is a intermediate aged 22 and received these scores: [4, 4, 4, 1]
+This gives them an overall score of 3.4.
+Best Lap Time: 0.0 seconds
+Speed: Infinity m/s
+
+Competitor number 112, name Catherin  George, country UAE.
+Catherin is a beginners aged 20 and received these scores: [1, 4, 4, 2]
+This gives them an overall score of 2.7.
+Best Lap Time: 0.0 seconds
+Speed: Infinity m/s
+
+Competitor number 113, name Aby  Mathew, country UK.
+Aby is a beginners aged 34 and received these scores: [2, 3, 4, 5]
+This gives them an overall score of 3.3.
+Best Lap Time: 0.0 seconds
+Speed: Infinity m/s
+
+Competitor number 114, name Jojo  Mony, country UK.
+Jojo  is a beginners aged 31 and received these scores: [2, 3, 4, 1]
+This gives them an overall score of 2.5.
+Best Lap Time: 0.0 seconds
+Speed: Infinity m/s
+
+Competitor number 115, name Methen  George, country UK.
+Methen is a beginners aged 30 and received these scores: [4, 4, 4, 1]
+This gives them an overall score of 3.4.
+Best Lap Time: 0.0 seconds
+Speed: Infinity m/s
+
+Competitor number 116, name Scarlett  John, country UK.
+Scarlett is a beginners aged 25 and received these scores: [3, 4, 4, 5]
+This gives them an overall score of 3.9.
+Best Lap Time: 0.0 seconds
+Speed: Infinity m/s
+
+Competitor number 117, name Patrick  Shanon, country US.
+Patrick is a intermediate aged 22 and received these scores: [4, 4, 3, 1]
+This gives them an overall score of 3.2.
+Best Lap Time: 0.0 seconds
+Speed: Infinity m/s
+
+Competitor number 118, name Rod  Stod, country UK.
+Rod is a intermediate aged 26 and received these scores: [1, 3, 2, 4]
+This gives them an overall score of 2.4.
+Best Lap Time: 0.0 seconds
+Speed: Infinity m/s
+
+Competitor number 119, name Lijo  Willams, country UK.
+Lijo is a beginners aged 28 and received these scores: [1, 2, 3, 1]
+This gives them an overall score of 1.7.
+Best Lap Time: 0.0 seconds
+Speed: Infinity m/s
+
+Top Scorer:
+Competitor number 108, name Susan  Mathew, country US.
+Susan is a beginners aged 28 and received these scores: [5, 4, 5, 3]
+This gives them an overall score of 4.3.
+Handicap: 0.0
+Golf Performance: 4.3
+
+Frequency Report:
+Score 1: 14 times
+Score 2: 13 times
+Score 3: 9 times
+Score 4: 28 times
+Score 5: 11 times
+Score 6: 1 times

@@ -5,7 +5,7 @@ public class GolfCompetitor extends Competitor {
     // Adjusted the constructor to not require the handicap parameter
     public GolfCompetitor(int competitorId, String firstName, String lastName, int age, String gender, String country, String level, int[] scores) {
         super(competitorId, firstName, lastName, age, gender, country, level, "Golf", scores);
-        this.handicap =handicap ;
+        this.handicap =0.0 ;
     }
 
     // Getters and Setters

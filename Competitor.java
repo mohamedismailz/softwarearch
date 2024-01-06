@@ -11,6 +11,7 @@ public class Competitor {
     private String sportType;
     private int[] scores;
 
+
     // Constructor
     public Competitor(int competitorId, String firstName,String lastName,int age, String gender, String country ,String level, String sportType,int[] scores) {
         this.competitorId = competitorId;
@@ -133,5 +134,10 @@ public class Competitor {
         System.out.println(competitor1.getShortDetails());
         System.out.println(competitor2.getFullDetails());
         System.out.println(competitor2.getShortDetails());
+
+    }
+
+    public int[] getScores() {
+        return scores;
     }
 }
