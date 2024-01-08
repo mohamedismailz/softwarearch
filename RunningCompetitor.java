@@ -6,8 +6,6 @@ public class RunningCompetitor extends Competitor {
         super(competitorId, firstName, lastName, age, gender, country, level, "Running", scores);
         this.bestLapTime = bestLapTime;
     }
-
-    // Getters and Setters
     public double getBestLapTime() {
         return bestLapTime;
     }
@@ -15,6 +13,14 @@ public class RunningCompetitor extends Competitor {
     public void setBestLapTime(double bestLapTime) {
         this.bestLapTime = bestLapTime;
     }
+
+    @Override
+    public double getOverallScore() {
+        // Assuming lower lap times are better and convert them into scores.
+        // This is a simplistic approach and should be adapted to the specific scoring rules.
+        return bestLapTime > 0 ? 1000 / bestLapTime : 0;
+    }
+
 
     public double calculateSpeed() {
         // lap distance for simplicity

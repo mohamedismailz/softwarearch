@@ -1,8 +1,7 @@
-public class GolfCompetitor extends Competitor {
-    // Removed the unnecessary golfSpecificAttribute
-    private double handicap;
+import java.util.Arrays;
 
-    // Adjusted the constructor to not require the handicap parameter
+public class GolfCompetitor extends Competitor {
+    private double handicap;
     public GolfCompetitor(int competitorId, String firstName, String lastName, int age, String gender, String country, String level, int[] scores) {
         super(competitorId, firstName, lastName, age, gender, country, level, "Golf", scores);
         this.handicap =0.0 ;
@@ -28,6 +27,13 @@ public class GolfCompetitor extends Competitor {
     public String getFullDetails() {
         return super.getFullDetails() + "\nHandicap: " + handicap + "\nGolf Performance: " + calculateGolfPerformance();
     }
+
+    @Override
+    public double getOverallScore() {
+        int sumScores = Arrays.stream(this.getScores()).sum();
+        return sumScores - handicap; // Lower scores are better in golf
+    }
+
 
     public static void main(String[] args) {
         // test instance of GolfCompetitor

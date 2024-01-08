@@ -1,8 +1,9 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-import java.util.Arrays;  // Import Arrays
+import java.util.Arrays;
 
 public class CompetitorList {
     private List<Competitor> competitors;
@@ -15,6 +16,10 @@ public class CompetitorList {
         this.competitors.add(competitor);
     }
 
+    public boolean removeCompetitorByNumber(int competitorId) {
+        return competitors.removeIf(c -> c.getCompetitorId() == competitorId);
+    }
+
     public Competitor getCompetitorByNumber(int competitorId) {
         return competitors.stream()
                 .filter(c -> c.getCompetitorId() == competitorId)
@@ -22,8 +27,20 @@ public class CompetitorList {
                 .orElse(null);
     }
 
+    public void setCompetitors(List<Competitor> readObject) {
+    }
+
+    public int getNextCompetitorId() {
+        int i = 0;
+        return i;
+    }
+
+
+    public class competitorList implements Serializable {
+        // existing code
+    }
     public List<Competitor> getCompetitors() {
-        return competitors;
+        return new ArrayList<>(competitors);
     }
 
     public Map<Integer, Long> generateFrequencyReport() {

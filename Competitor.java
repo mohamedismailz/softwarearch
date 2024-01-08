@@ -68,32 +68,31 @@ public class Competitor {
         this.competitorId = competitorId;
     }
 
-    public void firstName(String firstName) {
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    public void lastName(String lastName) {
+    public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
-    public void age(int age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
-    public void gender(String gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 
-    public void country(String country) {
+    public void setCountry(String country) {
         this.country = country;
     }
 
-
-    public void level(String level) {
+    public void setLevel(String level) {
         this.level = level;
     }
 
-    public void sportType(String sportType) {
+    public void setSportType(String sportType) {
         this.sportType = sportType;
     }
 
@@ -126,8 +125,8 @@ public class Competitor {
     // Main method to test the Competitor class
     public static void main(String[] args) {
         // Create some test Competitors
-        Competitor competitor1 = new Competitor(101, "Alice", "Smith", 25, "Female","US","intermediate", "Running",new int[]{4, 2, 3, 4});
-        Competitor competitor2 = new Competitor(102, "Bob", "Johnson", 30, "Male", "UK" ,"intermediate", "Golf", new int[]{5, 4, 1, 4, 3});
+        Competitor competitor1 = new Competitor(101, "Alice", "Smith", 22, "Female","US","intermediate", "Running",new int[]{4, 2, 3, 4});
+        Competitor competitor2 = new Competitor(102, "Bob", "Johnson", 20, "Male", "UK" ,"intermediate", "Golf", new int[]{5, 4, 1, 4, 3});
 
         // Test getFullDetails and getShortDetails methods
         System.out.println(competitor1.getFullDetails());
@@ -140,4 +139,5 @@ public class Competitor {
     public int[] getScores() {
         return scores;
     }
+
 }
