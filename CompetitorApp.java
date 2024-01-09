@@ -49,7 +49,7 @@ public class CompetitorApp {
         // Display the window
         frame.setVisible(true);
     }
-
+    // Method to edit details
     private void editSelectedCompetitor() {
         int selectedRow = table.getSelectedRow();
         if (selectedRow >= 0) {
@@ -173,6 +173,9 @@ public class CompetitorApp {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             try {
+                CompetitorView view = new CompetitorView();
+                CompetitorList model = new CompetitorList();
+                CompetitorController controller = new CompetitorController(model, view);
                 new CompetitorApp();
             } catch (Exception e) {
                 e.printStackTrace();
